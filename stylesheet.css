@@ -1,0 +1,311 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+@font-face {
+    font-family: fontawesome;
+    src: url(fonts/fontawesome-webfont.woff2);
+}
+
+@font-face {
+    font-family: sanomat-bold;
+    src: url(fonts/Sanomat\ Grab\ Web-Bold.woff2);
+}
+
+@font-face {
+    font-family: sanomat-medium;
+    src: url(fonts/Sanomat\ Grab\ Web-Medium.woff2);
+}
+
+@font-face {
+    font-family: sanomat-regular;
+    src:url(fonts/Sanomat\ Grab\ Web-Regular.woff2);
+}
+
+body{
+    font-family: 'sanomat-regular', sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    color: black;
+}
+a { 
+    color: inherit; 
+} 
+h2 {
+    font-weight: 600;
+    font-size: 2.571em;
+    color: #00BA51;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+nav {
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container {
+    display: flex;
+    justify-content: row;
+    opacity: 90%;
+
+}
+ul {
+    list-style-type: none;
+}
+.grab-logo {
+    width: 90px;
+    height: 35px;
+    position: relative;
+    left: 250px;
+    top: 3px;
+}
+.whole-nav-menu {
+    color: #000;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 400;
+    width: 1400px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 251px;
+    margin-right: 251px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.whole-nav-menu li {
+    padding: 15px 36px 15px 15px;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: left;
+}
+.left-nav-menu {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 50px;
+    margin-left: -30px;
+    
+}
+.right-nav-menu {   
+    display: flex;
+    position: relative;
+    left: 300px;
+}
+#drive {
+    border: solid;
+    border-color: #00B13f;
+    height: 44px;
+    width: 185px;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #00B13f;
+    
+}
+.grab-pay {
+    width: 90px;
+    height: 25px;
+}
+
+ .hero-img {
+        background-image: url(Images/01_hero_banner.jpg);
+        height: 750px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .hero-text {
+        position: absolute;
+        bottom: 450px;
+        left: 150px;
+        width: 500px;
+        text-align: left;
+    }
+    .hero-text h1 {
+        font-family: sanomat-bold;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 50px;
+        margin-bottom: 10px;
+        line-height: 50px;
+        margin-top: 23px;
+        color: white;
+    
+    }
+    .hero-text p{
+        color: white;
+        font-family: sanomat-medium, sans-serif;
+    }
+    .hero button {
+        padding: 15px 30px;
+        line-height: 1;
+        font-size: 1.15em;
+        background-color: #00B135;
+        font-weight: 600;
+        outline: none !important;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        border-radius: 6px;
+        position: relative;
+        top: 100px;
+        border: none;
+        color: white;
+        font-family: sanomat-regular;
+    
+    }
+    .hero button a {
+        text-decoration: none;
+    }
+    .how {
+        width: 1903px;
+        height: 800px;
+        padding-top: 90px;
+        padding-bottom: 85px;
+    }
+    .how-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .how-hands {
+        background-image: url(Images/1_step-1.jpg);
+        width: 220px;
+        height: 350px;
+        position: relative;
+        top: 80px;
+        left: 320px;
+
+    }
+    #arrowdown {
+        width: 21px;
+        height: 95px;
+        position: relative;
+        right: 68px;
+        bottom: 50px;
+    }
+    #arrowdown1 {
+        width: 21px;
+        height: 95px;
+        position: relative;
+        right: 68px;
+        bottom: 25px;
+    }
+    #arrowdown2 {
+        width: 21px;
+        height: 95px;
+        position: relative;
+        right: 68px;
+        bottom: 25px;
+    }
+    #image {
+        width: 400px;
+        height: 600px;
+        position: relative;
+        bottom: 65px;
+        padding-top: 90px;
+    
+
+    }
+    .how-list-div {
+        position: relative;
+    }
+    .how-list {
+        width: 568px;
+        height: 130px;
+        padding-left: 45px;
+        padding-bottom: 0px;
+    }
+    .how-list h4 {    
+        color: rgb(0, 186, 81);
+        font-size: 18px;
+        font-weight: 700;   
+        font-family: sanomat-bold;
+    }
+    .Green-CTA h2 {
+        font-weight: 600;
+        font-size: 41px;
+        line-height: 45px;
+        font-family: sanomat-bold;
+        color: #fff;
+        text-align: center;
+        width: 620px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .Green-CTA {
+        background-color: #009d3b;
+        padding-top: 90px;
+        padding-bottom: 85px;
+        height: 400px;
+    }
+    .Green-CTA button {
+    background-color: #fff;
+    color: #00b040;
+    text-transform: uppercase;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 16px 20px 15px;
+    font-size: 1.35em;
+    line-height: 1;
+    }
+    .Green-CTA button a {
+        text-decoration: none;
+    
+    }
+    .services-container {
+        height: 550px;
+        width: 100%;
+        background-image: url("Images/express-2-2.jpg");
+    }
+    .services {
+        margin-top: -50px;
+        }
+    .services-container h2 {
+    font-weight: 600;
+    font-size: 2.571em;
+    font-family: sanomat-bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    }
+    .services-container {
+    width: 1900px;
+    }
+    .services-container p {
+        color: #fff;
+        margin-bottom: 63px;
+        
+    }
+    .icons {
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .icons img {
+        height: 60px;
+        width: 60px;
+        border: solid;
+        border-color: #00b23e;
+        background-color: #00b23e;
+        border-radius: 60px;
+        margin-left: 30px;
+        margin-right: 30px;
+        position: relative;
+        top: 100px;
+        
+    }
+    footer {
+        height: 120px;
+        width: 100%;
+        background-color: black;
+    }
